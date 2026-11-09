@@ -1,0 +1,10 @@
+{
+  "description": "Helps students and small organizations recognize phishing through clear examples and friendly, practical steps for reporting and responding to suspicious messages.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
