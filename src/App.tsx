@@ -245,31 +245,15 @@ function App() {
 
   return (
     <main>
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="ORTSOC home">
-          <span className="brand-mark">
-            <Icon name="shield" />
-          </span>
-          <span>
-            OSU <b>ORTSOC</b>
-          </span>
-        </a>
-        <a className="header-link" href="#action-plan">
-          What to do <Icon name="arrow" size={17} />
-        </a>
-      </header>
-
       <section className="hero" id="top">
         <div className="hero-copy">
-          <div className="eyebrow">A quick guide from ORTSOC</div>
           <h1>
-            Don’t Take the Bait:
+            Spotting Phishing:
             <br />
-            <em>Spotting Phishing</em>
+            <em>Are You At Risk?</em>
           </h1>
           <p>
-            Learn how to spot phishing messages and what to do if you get one.
-            No tech experience needed.
+            How to spot phishing messages and what to do if you get one.
           </p>
           <button
             type="button"
@@ -304,7 +288,7 @@ function App() {
         <div className="section-heading">
           <span className="section-number">01</span>
           <div>
-            <span className="overline">Start here</span>
+            <span className="overline">         </span>
             <h2>What is phishing?</h2>
           </div>
         </div>
@@ -464,23 +448,6 @@ function App() {
           </p>
         </div>
       </section>
-
-      <footer>
-        <a className="brand footer-brand" href="#top">
-          <span className="brand-mark">
-            <Icon name="shield" />
-          </span>
-          <span>
-            OSU <b>ORTSOC</b>
-          </span>
-        </a>
-        <p>Created by Oregon State University ORTSOC</p>
-        <nav aria-label="Footer navigation">
-          <a href="mailto:contact@example.edu">Contact</a>
-          <a href="#examples">Resources</a>
-          <a href="mailto:report@example.edu">Report Phishing</a>
-        </nav>
-      </footer>
     </main>
   )
 }
