@@ -91,7 +91,7 @@ const folders = [
 ]
 
 function ExampleBadge() {
-  return <span className="example-badge">Example — not a real message</span>
+  return <span className="example-badge">Example</span>
 }
 
 function EmailExample() {
@@ -288,19 +288,18 @@ function App() {
         <div className="section-heading">
           <span className="section-number">01</span>
           <div>
-            <span className="overline">         </span>
+            <span className="overline">Fishing?</span>
             <h2>What is phishing?</h2>
           </div>
         </div>
         <div className="intro-grid">
           <div className="intro-copy">
             <p className="lead">
-              Phishing is when a scammer pretends to be someone you trust—like
+              Phishing is when a scammer pretends to be someone you trust. Could be
               your school, bank, coworker, or a familiar company.
             </p>
             <p>
-              They want to rush you into clicking a link, sharing a password, or
-              sending money or personal information. The good news? Most
+              Their goal is to get you to click a link, share a password, or send money / personal information. The good news? Most
               phishing messages leave clues.
             </p>
             <div className="tip">
