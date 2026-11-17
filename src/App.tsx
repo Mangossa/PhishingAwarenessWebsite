@@ -408,7 +408,6 @@ function App() {
         <div className="action-heading">
           <span className="overline">What to do</span>
           <h2>Think you’ve been phished?</h2>
-          <p>Stay calm. Here’s what to do next.</p>
         </div>
         <div className="steps">
           {[
@@ -438,13 +437,6 @@ function App() {
               <p>{text}</p>
             </article>
           ))}
-        </div>
-        <div className="reassurance">
-          <Icon name="shield" size={28} />
-          <p>
-            <strong>Getting phished happens to everyone.</strong> Reporting it
-            quickly is what matters.
-          </p>
         </div>
       </section>
     </main>
